@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.node.json",
+  "compilerOptions": {
+    "types": ["node"],      // <-- this is key
+    "moduleResolution": "node"
+  },
+  "include": ["pages/api/**/*.ts", "next-env.d.ts"]
+}
